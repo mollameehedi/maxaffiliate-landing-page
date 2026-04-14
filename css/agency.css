@@ -1,22 +1,3 @@
-/*!
- * Start Bootstrap - Agency v3.3.7+1 (http://startbootstrap.com/template-overviews/agency)
- * Copyright 2013-2016 Start Bootstrap
- * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
- */
- 
-/*@font-face {
-	font-family: 'Open Sans';
-	font-style: normal;
-	font-weight: 400;
-	src: local('Open Sans'), local('OpenSans'), url(../fonts/OpenSans.woff) format('woff');
-}
-@font-face {
-	font-family: 'Open Sans';
-	font-style: normal;
-	font-weight: 700;
-	src: local('Open Sans Bold'), local('OpenSans-Bold'), url(../fonts/OpenSansBold.woff) format('woff');
-}
- */
 body {
   overflow-x: hidden;
   /*font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;*/
@@ -31,7 +12,7 @@ body {
 }
 
 .text-verticals {
-  color: #28A745;
+  color: #2563eb;
 }
 
 .new-text{
@@ -138,8 +119,8 @@ fieldset[disabled] .btn-primary.active {
 }
 .btn-xl {
   color: white;
-  background-color: #28A745;
-  border-color: #28A745;
+  background-color: #2563eb;
+  border-color: #2563eb;
 	font-family: "Open Sans", sans-serif;    
   font-weight: 500;
   border-radius: 5px;
@@ -875,16 +856,13 @@ body {
   webkit-tap-highlight-color: #2096cf;
 }
 
-.logo {
-  background:url(../images/180x180.png) no-repeat 0% 40%; 
+.logo img{
   height:49px;
   background-size: 43px;
   display:block;
   float:left;
-  /*padding-top:6px;*/
   padding-top: 9px; 
   padding-left: 50px; 
-  /*margin-left: 13px;*/
 }
 
 .logo a {
@@ -919,7 +897,7 @@ body {
 }
 
 .btn-outline-green {
-  color: #28A745 !important;
+  color: #2563eb !important;
   background-color:transparent;
   box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -932,8 +910,8 @@ body {
 .btn-outline-green:focus,
 .btn-outline-green:active,
 .btn-outline-green.active {
-  background-color: #28A745 !important;
-  border-color: #28A745 !important;
+  background-color: #2563eb !important;
+  border-color: #2563eb !important;
   color: #fff !important;
   filter: brightness(100%);     
 }
